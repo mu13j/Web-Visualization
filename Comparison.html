@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="jquery.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                    <li><a href="Visualization1.html">Max Temperature</a></li>
+                    <li><a href="Visualization2.html">Humidity</a></li>
+                    <li><a href="Visualization3.html">Cloudiness</a></li>
+                    <li><a href="Visualization4.html">Wind Speed</a></li>
+                </ul>
+            </li>
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>
+        </ul>
+      </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+                <h1>Comparisons: Latitude vs X</h1>
+                <hr>
+                <p>Click any plot to get an in-depth analysis</p>
+          </div>
+      </div>
+      <div class="row">
+            <div class='col-md-5 col-md-offset-1'>
+                <p class='titles'> vs. Max Temperature</p>
+                <div>
+                  <a href="Visualization1.html">
+                        <img class="comp" src="Visualization1.png" alt="Your Name">
+                  </a>
+                </div>
+                <p class='titles'> vs. Cloudiness</p>               
+                <div>
+                    <a href="Visualization2.html">
+                        <img class="comp" src="Visualization2.png" alt="Your Name">
+                  </a>
+                </div>
+            </div>    
+            <div class='col-md-5'>
+                    <p class='titles'>vs. Humidity</p>
+                    <div>
+                        <a href="Visualization3.html">
+                            <img class="comp" src="Visualization3.png" alt="Your Name">
+                      </a>
+                    </div>
+                    <p class='titles'> vs. Wind Speed</p>
+                    <div>
+                        <a href="Visualization4.html">
+                            <img class="comp" src="Visualization4.png" alt="Your Name">
+                      </a>
+                    </div>
+                </div>                    
+
+    </div>
