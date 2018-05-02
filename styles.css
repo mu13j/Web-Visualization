@@ -99,9 +99,17 @@ body{
   background-color:white;
 }
 
+.col-md-12{
+  background-color: white;
+  text-align:center;
+  font-size: 5px;
+}
+
 .row{
   background-color:lightgray;
-  padding: 50px
+  padding-left: 50px;
+  padding-right:50px;
+  padding-top:25px;
 }
 
 h1{
@@ -113,11 +121,7 @@ h1{
 hr{
   height: 3px;
 }
-.col-md-12{
-  background-color: white;
-  text-align:center;
-  font-size: 5px;
-}
+
 
 li{
   font-weight:bold;
@@ -154,7 +158,6 @@ img {
   width: 100%;
   height: auto;
 }
-
 
 table, th, td {
   border: 1px solid black;
