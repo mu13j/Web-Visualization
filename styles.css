@@ -24,34 +24,38 @@ p {
   line-height: 40px;
 }
 
+p.instruction{
+  color:black;
+}
+
 div {
   text-align: left;
 }
 
 #picture {
   float:left;
-  width: 180px;
-  height: 150px;
+  width: 375px;
+  height: 300px;
 }
 
 .solo-image{
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 300px;
 }
 
 
 .bio-image{
   display: inline-block;
-  width: 150px;
+  width: 175px;
   height: 150px;
-  margin:25px;
+  margin:15px;
 }
 
 .comp{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
 }
 
 .outline{
@@ -87,10 +91,6 @@ body{
   margin-left:10px;
 }
 
-.col-md-12{
-  background-color:white;
-  margin-left:10px;
-}
 
 .col-md-5.col-md-offset-1{
   background-color:white;
@@ -114,7 +114,7 @@ hr{
   height: 3px;
 }
 .col-md-12{
-  background-color: gray;
+  background-color: white;
   text-align:center;
   font-size: 5px;
 }
